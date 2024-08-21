@@ -233,7 +233,7 @@ export class Game
         this.balls = [];
         this.spread = 1;
         this.wiperForce = 1;
-        this.wiperSpeed = 1
+        this.wiperSpeed = 1;
         this.stepDivision = 3 * this.wiperSpeed ;
         this.wiper = new Wiper(new Vector2(this.width / 2.0, this.height / 2.0), this.height * 0.8, 5, 3);
 
